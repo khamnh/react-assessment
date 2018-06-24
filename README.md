@@ -1,5 +1,5 @@
 
-<p>Installation local</p>
+<p>Installation locally</p>
 
 <p>Step 1: npm install</p>
 <p>Step 2: npm start</p>
