@@ -1,6 +1,6 @@
 
-Installation local
+<p>Installation local</p>
 
-Step 1: npm install\n
-Step 2: npm start\n
-Step 3: localhost:3000
+<p>Step 1: npm install</p>
+<p>Step 2: npm start</p>
+<p>Step 3: localhost:3000</p>
