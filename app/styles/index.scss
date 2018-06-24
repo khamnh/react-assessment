@@ -1,0 +1,265 @@
+/**
+ * Author: Kham Nguyen
+ * content: style for managing user
+ * Date created: 23-June-2018
+ * Date modified: 24-June-2018
+ * Last modify by: Kham Nguyen
+ */
+/* style for user list */
+.user-management {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.user-item {
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     margin-top: 20px;
+     img {
+         width: 100px;
+         padding: 10px;
+     }
+     ul {
+         text-align: left;
+         margin-top: 20px;
+     }
+     .see-more {
+         text-align: right;
+         margin-bottom: 10px;
+         margin-right: 10px;
+         >a>i {
+             cursor: pointer;
+         }
+     }
+ }
+ /* style for user detail */
+ .content-detail {
+    margin-left: 40px;
+    margin-top: 20px;
+     .detail-avatar {
+        img {
+            width: 150px;
+        }
+     }
+     .content-nav {
+         margin-top: 20px;
+     }
+     .back-to-user {
+         font-size: 20px;
+         margin-bottom: 20px;
+         >a {
+            cursor: pointer;
+             >i {
+                margin-right: 10px;
+            }
+        }
+     }
+ }
+ /* style for user albums */
+ .user-albums {
+     .item-albums {
+         margin-top: 20px;
+         .count-albums {
+            margin-top: 5px;
+         }
+         .image-title {
+             img {
+                 cursor: pointer;
+             }
+         }
+     }
+}
+/* style for post item */
+.posts-user {
+    .post-item {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 20px;
+        padding-left: 10px;
+        >div>a {
+            cursor: pointer;
+        }
+    }
+    .container-post {
+        .control-item {
+            text-align: right;
+            a {
+                margin-right: 10px;
+                i {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .add-post {
+        text-align: right;
+        margin-top: 10px;
+        a {
+            cursor: pointer;
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+ }
+.post-detail {
+    border: 1px solid rgb(231, 226, 226);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(231, 226, 226);
+}
+.post-comments {
+    margin-left: 40px;
+    margin-top: 10px;
+    .comment-item {
+        border: 1px solid rgb(231, 226, 226);
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgb(231, 226, 226);
+        margin-top: 10px;
+    }
+    .control-item {
+        text-align: right;
+        a {
+            margin-right: 10px;
+            i {
+                cursor: pointer;
+            }
+        }
+    }
+}
+.add-comment {
+    text-align: right;
+    >a>i {
+        cursor: pointer;
+    }
+    
+}
+#body-comment {
+    width: 100% !important;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+}
+.edit-body {
+    margin-bottom: 10px;
+    #textarea {
+        width: 100% !important;
+        padding: 10px;
+        border: 1px solid #ccc;
+        min-height: 100px;
+    }
+}
+.button-group {
+    text-align: right;
+    font-size: 20px;
+    .confirm {
+        margin-right: 10px;
+        cursor: pointer;
+        color: green;
+    }
+    .cancel {
+        cursor: pointer;
+        color: red;
+    }
+}
+/* style for photo list */
+.photo-list {
+    .container-thumb {
+        max-height: 700px;
+        overflow-y: scroll;
+        .thumbnail-item {
+            margin-top: 10px;
+            img {
+                cursor: pointer;
+                width: 100px;
+            }
+        }
+    }
+    .photo-fullsize {
+        img {
+            max-width: 700px;
+            max-height: 700px;
+        }
+    }
+}
+/* style for user detail */ 
+.about-user {
+    margin-top: 20px;
+    ul {
+        list-style: none;
+        margin-left: -40px;
+        >li {
+            margin-top: 10px;
+            >i {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+/* style for modal edit post */
+.modal-edit-post {
+    .group-button-action {
+        margin-top: 20px;
+        text-align: right;
+        .confirm {
+            margin-right: 10px;
+        }
+    }
+    .title-post {
+        input {
+            border: 1px solid #ccc;
+            margin-left: 40px;
+            width: 80%;
+            height: 30px;
+            padding-left: 5px;
+        }
+    }
+    .body-post {
+        #content-post,#content-add-post {
+            width: 80%;
+            margin-left: 20px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            height: 100px;
+            padding-left: 5px;
+        }
+    }
+}
+/* style for modal delete */
+.modal-delete-post {
+    .group-button-delete {
+        text-align: right;
+        margin-top: 20px;
+        .confirm {
+            margin-right: 10px;
+        }
+    }
+}
+/* style for header */
+.header-kumparan {
+    height: 50px;
+    background-color: #2c5973;
+    margin-bottom: 20px;
+}
+/* style for side bar */
+.side-bar {
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2c5973;
+    overflow-x: hidden;
+    padding-top: 50px;
+    .user {
+        margin-right: 10px;
+    }
+    .kumparan {
+        text-align: center;
+        color: white;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+}
